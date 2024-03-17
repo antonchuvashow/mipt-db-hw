@@ -51,6 +51,6 @@ erDiagram
     Author ||--o{ Sculpture : "Creates"
     Painting }|--o{ Exhibition: "Belongs to"
     Sculpture }|--o{ Exhibition : "Belongs to"
-    Exhibition ||--|{ MuseumEmployee: "Staffed by"
+    Exhibition }|--|{ MuseumEmployee: "Staffed by"
     Exhibition }|--|{ Visitor : "Attended by"
 ```
