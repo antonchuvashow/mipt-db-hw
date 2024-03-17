@@ -1,3 +1,4 @@
+```mermaid
 erDiagram
     Author {
         int ID
@@ -52,4 +53,4 @@ erDiagram
     Sculpture }|--o{ Exhibition : "Belongs to"
     Exhibition ||--|{ MuseumEmployee: "Staffed by"
     Exhibition }|--|{ Visitor : "Attended by"
-
+```
